@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pretto *.css
+recursive-include pretto *.csv
+recursive-include pretto *.html
+recursive-include pretto *.ico
+recursive-include pretto *.js
+recursive-include pretto *.json
+recursive-include pretto *.md
+recursive-include pretto *.png
+recursive-include pretto *.py
+recursive-include pretto *.svg
+recursive-include pretto *.txt
+recursive-exclude pretto *.pyc
